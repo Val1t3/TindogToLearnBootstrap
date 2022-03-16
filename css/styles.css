@@ -4,6 +4,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 #title {
     background-color: #ff4c68;
 }
@@ -19,7 +29,6 @@ body {
 
 .h1_title {
     color: white;
-    font-size: 3.5rem;
     line-height: 1.5;
 }
 
@@ -150,14 +159,35 @@ body {
 
 #cta {
     background-color: #ff4c68;
+    padding: 7% 0 7%;
     text-align: center;
 }
 
 .title-cta {
     color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    margin: 7% 0 3% 0;
+    font-size: 4rem;
+    font-weight: 900;
+    padding-bottom: 3%;
+}
+
+.button-cta {
+    margin: 1%;
+}
+
+/* Footer section */
+
+#footer {
+    font-size: 1.2rem;
+    padding: 5% 0 5%;
+}
+
+#footer i {
+    margin: 0.5%;
+}
+
+#footer p {
+    color: #8f8f8f;
+    margin-top: 2%;
 }
 
 /* Media queries section */
