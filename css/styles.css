@@ -55,14 +55,8 @@ body {
     width: 25%;
     transform: rotate(25deg);
     position: absolute;
-    top: 13%;
-    left: 60%;
-}
-
-@media (max-width: 1024px) {
-    .title-image {
-        z-index: -1;
-    }
+    right: 20%;
+    top: 20%;
 }
 
 /* Features icons */
@@ -150,4 +144,32 @@ body {
 
 #pricing p {
     color: #8f8f8f;
+}
+
+/* Footer section */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.title-cta {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 7% 0 3% 0;
+}
+
+/* Media queries section */
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+        width: 60%;
+    }
+
+    #title {
+        text-align: center;
+    }
 }
